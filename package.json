@@ -1,0 +1,19 @@
+{
+  "name": "pdf-processor-ion",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "sst dev --stage dev",
+    "deploy": "sst deploy --stage dev",
+    "diff": "sst diff --stage dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "sst": "3.3.27"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "8.10.145"
+  }
+}

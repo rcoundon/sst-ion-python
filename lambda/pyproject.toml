@@ -1,0 +1,8 @@
+[project]
+name = "pdf-processor-ion"
+version = "0.1.0"
+description = "A SST app"
+authors = [
+    {name = "Me", email = "test@test.com" },
+]
+requires-python = ">=3.12"

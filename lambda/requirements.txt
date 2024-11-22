@@ -1,0 +1,8 @@
+requests
+transformers[torch]==4.41.2
+python-dotenv
+pypdf
+docling
+docling-core
+boto3
+logging
