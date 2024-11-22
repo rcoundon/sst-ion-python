@@ -8,7 +8,7 @@ COPY lambda/requirements.txt ./
 RUN python3.12 -m pip install -r requirements.txt
 
 # Copy the earlier created app.py file to the container
-COPY ./lambda/app.py ./
+COPY lambda/app.py ./
 
 # Set the CMD to your handler
 CMD ["app.handler"]
